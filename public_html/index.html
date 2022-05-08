@@ -7,6 +7,7 @@
     </head>
     <body style='background-color: black; color: white'>
         <h1 style="text-align: center">Capitulo 1 - HTML 5</h1>
+        <hr>
         <h3>Formatações</h4>
             <p>Este texto tem <b>Negrito</b></p> <!-- <b> negrito -->
             <p>Este texto tem <strong>Stronger</strong></p> <!--<strong> destaque -->
@@ -17,7 +18,7 @@
         <h3>Listas Ordenadas e Não Ordenadas</h3>
         <h4>Nao Ordenada</h4>
         <ul> <!--unordered list-->
-            <li>Joao</li> <!--list item -->
+            <li>Joao</li> <!--list item -->  
             <li type='square'>Maria</li> <!--type:define o tipo do marcador-->
             <li type='circle'>Pedro</li>
         </ul>
@@ -40,7 +41,36 @@
         <hr>
         <h3>Imagens</h3>
         <img src="image/blueSky.jpg" height='200' width="500" alt="alt"/> <!-- src-source, height-altura, width-largura-->
+        <hr>
         <h3>Links</h3>
-        <a href="Contact.html">About Ous</a> <!--h:hyper,ref:reference-->
+        <a href="contact.html">About Ous</a> <!--h:hyper,ref:reference-->
+        <hr>
+         <h3>Tabelas</h3>
+        <table border='1' width='50%'><!-- tabela -->
+            <tr><!--Table Row-->
+                <td> linha 1 coluna 1</td> <!--Table data-->
+                <td> linha 1 coluna 2</td>
+                <td> linha 1 coluna 3</td>
+            </tr> 
+            <tr>
+                <td>
+                    <img src="image/blueSky.jpg" width="100" height="100" alt='imagem do ceu'/>
+                </td>
+                <td>linha 2 coluna 2</td>
+                <td>linha 2 coluna 3</td>
+            </tr>
+        </table>
+         <br>
+         <table border='1'>
+             <tr>
+                 <th colspan='3'>Table Head</th> <!--th:table head, colspan/rowspan:column & column span-->
+             </tr>
+             <tr>
+                 <td> linha 1 coluna 1</td>
+                 <td> linha 1 coluna 1</td>
+                 <td> linha 1 coluna 1</td> 
+             </tr>
+         </table>
+         <hr>
     </body>
 </html>
